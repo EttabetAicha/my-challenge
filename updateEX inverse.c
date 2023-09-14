@@ -10,10 +10,9 @@ int main()
     b=(a%10)*100; //TAKE LAST NUMBER
     if(b == 0){
         b = (a % 10) * 100 + ((a / 10) % 10) * 10 + (a / 100);
-    printf("Le nombre %d inverse est %03d\n", c, b);
-
+        printf("Le nombre %d inverse est %03d\n", c, b);
     }else{
-     b = (a % 10) * 100 + ((a / 10) % 10) * 10 + (a / 100);
+        b = (a % 10) * 100 + ((a / 10) % 10) * 10 + (a / 100);
     printf("le nombre %d inverse est %d\n",c,b);
 }
     return 0;

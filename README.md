@@ -1,2 +1,3 @@
 # my-challenge
-# Solution des exercices en utilisant language C
+# Solution des algo
+en utilisant language C

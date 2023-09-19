@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main() {
-    srand(time(NULL));// pseudo-random & initialiser le générateur de nombres aléatoires
+    srand(time(NULL));// pseudo-random & initialiser le gï¿½nï¿½rateur de nombres alï¿½atoires
     int Nrandom = rand() % 7;
     char days[][13] = {"Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi","Dimanche",};
     printf("Le jour de la semaine aleatoire est : %s\n", days[Nrandom]);
